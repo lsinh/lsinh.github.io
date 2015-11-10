@@ -1,44 +1,84 @@
-#navbar {
-    float: left;
-    background-color: #993300;
-    opacity: 0.6;
-    margin-right: 10px;
-    padding: 5px;
-    
-}    
+.sidebar {
+    width: 200px;
+    position: fixed;
+    background: url("http://img1.mxstatic.com/wallpapers/13253c3b7e1eacefb36032e12ec5b4c8_large.png");
+    height: 1500px;
+}
 
-#navbar p {
-    font-family: Tahoma;
+.sidebar img {
+    width: 75%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.sidebar ul li {
     color: white;
-    
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    font-family: courier;
 }
 
-#NameHeader {
+ul li a {
+    text-decoration: none;
     color: white;
-    position: absolute;
-    top: 100px;
 }
 
-#NameHeader h1 {
-    font-family: Brush Script MT;
-    margin-left: 10px;
-    opacity: 0.7;
-    
+a:hover {
+    color: green;
 }
 
-#NameHeader h3 {
-    margin-left: 10px;
-    font-family: Brush Script MT;
-    opacity: 0.7;
-}
-
-
-
-#barAcross {
-    background: url("http://cdn.trendhunterstatic.com/thumbs/vintage-motorcycle.jpeg");
-    height: 200px;
-    width: 100%;
+#top {
+    float:left;
+    width: 75%;
+    height: 1100px;
+    margin-left: 200px;
+    overflow: auto;
+    z-index: 1;
     position: relative;
-   
 }
+
+#top img {
+    height: 600px;
+    width: auto;
+}
+
+#top h1{
+    margin-left: 20px;
+    color: #E5FFE5;
+    background: url("http://data.hdwallpapers.im/coding_source_code_hd.jpg");
+    font-family: Courier;
     
+    
+}
+
+#top h3 {
+    margin-left: 20px;
+    font-family: courier;
+}
+
+#top img {
+    margin-left: 20px;
+}
+
+#bottom {
+    margin-top: 800px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#bottom div {
+    display: inline-block;
+    margin-left: 20px;
+    width: 270px;
+}
+
+.what {
+    background-color: green;
+}
+
+footer {
+    clear: both;
+}
+
